@@ -1,0 +1,77 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 29 May 2025 20h39
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.12
+WORDPRESS:	6.8.1
+PHP INFO:	8.2.28 | SAPI: apache2handler
+SERVER:		Apache/2.4.62 (Debian) 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 8MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:27 | filtered:0 | create:27
+FILTERED: []
+SQL CREATED: 20250529_barbierdenuit_1feb51ab7ef4a2203940_20250529203931_database.sql
+SQL FILE SIZE: 3.64MB (3811688)
+SQL FILE TIME: 2025-05-29 20:39:43
+SQL RUNTIME: 0.05 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250529_barbierdenuit_1feb51ab7ef4a2203940_20250529203931_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	179.61MB
+STATS:	Dirs 4,748 | Files 9,753
+SQL ADDED: 20250529_barbierdenuit_1feb51ab7ef4a2203940_20250529203931_database.sql
+ZipArchive Object
+(
+    [lastId] => 14500
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 14501
+    [filename] => /var/www/html/wp-content/backups-dup-lite/tmp/20250529_barbierdenuit_1feb51ab7ef4a2203940_20250529203931_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 14500
+[PHP ERR][NOTICE] MSG:ob_flush(): Failed to flush buffer. No buffer to flush [CODE:8|FILE:/var/www/html/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:173]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 52.37MB
+ARCHIVE RUNTIME: 7.32 sec.
+MEMORY STACK: 12MB
+building installer
+TEST DE COHÉRENCE D’ARCHIVE : RÉUSSITE
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 3.64MB
+INSTALLER FILE: 73.49KB
+ARCHIVE FILE: 54.38MB 
+COMPTE ATTENDU DE FICHIERS/RÉPERTOIRES : 14,501
+COMPTE ACTUEL DE FICHIERS/RÉPERTOIRES : 14,500
+TEST DE COHÉRENCE D’ARCHIVE : Bon
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 8.18 sec.
+PEAK PHP MEMORY USED: 14MB
+DONE PROCESSING => 20250529_barbierdenuit 29 May 2025 20h39
+
